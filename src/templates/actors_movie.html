@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actors who have taken part in {{title}}</title>
+</head>
+<body>
+    <h1>Movie: {{title}} </h1>
+    {% for actor in actors %}
+        <h2>Actor: {{actor}}</h2>
+    {% endfor %}
+</body>
+</html>

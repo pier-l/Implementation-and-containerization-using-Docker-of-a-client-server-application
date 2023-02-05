@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Movie Graph</title>
+</head>
+<body>
+    <section>
+        <form action="/send" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>What are you looking for?</legend>
+                <label>Show all the actors</label>
+                <br>
+                <input type="submit" name="action" value="Show Actors"></input>
+                <br>
+                <label>Show all the movies</label>
+                <br>
+                <input type="submit" name="action" value="Show Movies"></input>
+                <br>
+                <label>Show the movies starring this actor:</label>
+                <br>
+                <input type="text" name="movie_actor" placeholder="Enter name of an actor"></input>
+                <input type="submit" name="action" value="Find Movies"></input>
+                <br>
+                <label>Show the actors who have taken part in this movie:</label>
+                <br>
+                <input type="text" name="actor_movie" placeholder="Enter name of a movie"></input>
+                <input type="submit" name="action" value="Find Actors"></input>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
