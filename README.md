@@ -10,7 +10,7 @@ The figure below shows the architecture of the application, where the three cont
 ![arch](arch.png)
 
 ## Use case
-Through the endpoint 'http://localhost:5000' we access the user interface of the application, which is represented by a simple form made with html. The user can perform several actions, each of which gives rise to a request that is handled by the server which in turn interacts, through the Python driver with the Neo4j database. The database responds to the various queries by returning the results to the server, which in turn returns them in the form of an html document to the client. A compact example of form interaction and subsequent return of a result is shown in the figure below:
+Through the endpoint http://localhost:5000 we access the user interface of the application, which is represented by a simple form made with html. The user can perform several actions, each of which gives rise to a request that is handled by the server which in turn interacts, through the Python driver with the Neo4j database. The database responds to the various queries by returning the results to the server, which in turn returns them in the form of an html document to the client. A compact example of form interaction and subsequent return of a result is shown in the figure below:
 
 ![app](app.png)
 
