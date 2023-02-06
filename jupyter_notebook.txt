@@ -5,7 +5,7 @@ pip install neo4j
 
 from neo4j import GraphDatabase
 
-driver=GraphDatabase.driver(uri="bolt://neo4j:7687", auth=("neo4j", "pierluigi")) 
+driver=GraphDatabase.driver(uri="bolt://neo4j:7687", auth=("","")) 
 
 session = driver.session()
 
